@@ -95,6 +95,7 @@
     <string name="studyoptions_welcome_title">Welcome to AnkiDroid</string>
     <string name="studyoptions_no_external_storage_title">No External Storage Available</string>
     <string name="studyoptions_no_external_storage_message">No external storage is currently available. AnkiDroid needs to have access to the SD card in order to read and load your Anki decks. Check that your SD card is mounted and try again.</string>
+    <string name="intent_create_flashcard_title">Ankidroid - Add Notes</string>
     <string name="fact_adder_intent_title">AnkiDroid Card</string>
     <string name="deckpicker_select_dictionary_title">Select Dictionary</string>
     <string name="deckpicker_select_dictionary_default">Default</string>
@@ -110,6 +111,10 @@
     <string name="rename_error">Deck %s could not be renamed</string>
     <string name="default_conf_delete_error">The default options group can\'t be removed</string>
 
+    <plurals name="sure_add_cards">
+        <item quantity="one">Are you sure you want to add the card to the selected deck?</item>
+        <item quantity="other">Are you sure you want to add %d new cards to the selected deck?</item>
+    </plurals>
     <plurals name="factadder_cards_added">
         <item quantity="one">1 card added</item>
         <item quantity="other">%d cards added</item>

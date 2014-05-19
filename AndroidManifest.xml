@@ -161,6 +161,15 @@
             android:configChanges="locale"
             android:label="@string/about_title" />
         <activity
+            android:name="com.ichi2.anki.CreateFlashcard"
+            android:configChanges="keyboardHidden|orientation|locale|screenSize"
+            android:label="@string/intent_create_flashcard_title">
+            <intent-filter>
+                <action android:name="org.openintents.action.CREATE_FLASHCARDS" />
+                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+        </activity>
+        <activity
             android:name="com.ichi2.anki.CardEditor"
             android:configChanges="keyboardHidden|orientation|locale|screenSize"
             android:label="@string/fact_adder_intent_title" >
